@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Uñas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+    <header>
+        <nav>
+            <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#pedir-cita">Citas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+
+  <!-- ====== INICIO ====== -->
+  <section id="inicio">
+    <h2>Bienvenido/a a rgb.luxenails</h2>
+    <p>Hacemos servicios de manicura permanente y manicura acrílica de lunes a viernes y en casos especiales fines de semana.</p>
+    <img src="fotos/manicura1.jpeg" alt="Manicura ejemplo">
+  </section>
+
+  <!-- ====== SERVICIOS ====== -->
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios-grid">
+        <div class="servicio-card">
+            <h3>Uñas Acrílicas</h3>
+            <p>Extensiones duraderas con acabados naturales o artísticos.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Semipermanente</h3>
+            <p>Color impecable por más de 15 días con brillo espejo.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Nail Art</h3>
+            <p>Diseños hechos a mano alzada, cristales y tendencias.</p>
+        </div>
+    </div>
+   </section>
+  <!-- ====== GALERÍA ====== -->
+  <section id="galeria">
+    <h2>Galería de trabajos</h2>
+    <div class="galeria-fotos">
+      <img src="fotos/manicura2.jpeg" alt="Trabajo 1">
+      <img src="fotos/manicura3.jpeg" alt="Trabajo 2">
+      <img src="fotos/manicura4.jpeg" alt="Trabajo 3">
+    </div>
+  </section>
+
+  <!-- ====== PEDIR CITA ====== -->
+  <section id="pedir-cita">
+    <h2>Pedir cita</h2>
+    <form id="citaForm">
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+      <input type="date" id="fecha" required>
+      <input type="time" id="hora" required>
+      <textarea id="mensaje" placeholder="Comentario (opcional)"></textarea>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+    <p>Al enviar, se abrirá tu correo para confirmar la solicitud.</p>
+  </section>
+
+  <!-- ====== CONTACTO ====== -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: correo@delatienda.com</p>
+    <p>Teléfono: +34 600 000 000</p>
+    <p>Instagram: <a href="https://www.instagram.com/tuusuario" target="_blank">@tuusuario</a></p>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <p>&copy; 2026 Tienda de Uñas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
